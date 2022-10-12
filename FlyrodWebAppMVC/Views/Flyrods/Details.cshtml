@@ -58,8 +58,20 @@
             @Html.DisplayFor(model => model.Construction)
         </dd>
     </dl>
+    
+    <img src = "" id = "rodImage" name="rodImage" alt="Rod Image" style = "width: 50%; height: 50%">
+        
+    @*<img src="~/lib/images/leonard37h.webp" alt="Leonard 37H" style="width: 50%; height: 50%">*@
+ 
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+<script type="text/javascript">
+
+    //alert("Loaded Details");
+    //document.getElementById('rodImage').src = "../../lib/images/leonard37h.webp";
+    document.getElementById('rodImage').src = "../../lib/images/@Html.Raw(Model.RodImage)";
+
+</script>

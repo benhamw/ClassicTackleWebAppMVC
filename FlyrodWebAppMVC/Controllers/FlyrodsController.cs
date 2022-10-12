@@ -57,7 +57,7 @@ namespace FlyrodWebAppMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MakerId,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction")] Flyrod flyrod)
+        public async Task<IActionResult> Create([Bind("Id,MakerId,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction,RodImage")] Flyrod flyrod)
         {
             //if (ModelState.IsValid)
             bool run = true;
@@ -93,7 +93,7 @@ namespace FlyrodWebAppMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MakerId,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction")] Flyrod flyrod)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,MakerId,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction,RodImage")] Flyrod flyrod)
         {
             if (id != flyrod.Id)
             {

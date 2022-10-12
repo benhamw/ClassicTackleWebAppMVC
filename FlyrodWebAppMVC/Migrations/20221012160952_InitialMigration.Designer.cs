@@ -3,6 +3,7 @@ using FlyrodWebAppMVC;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FlyrodWebAppMVC.Migrations
 {
     [DbContext(typeof(FlyrodContext))]
-    partial class FlyrodContextModelSnapshot : ModelSnapshot
+    [Migration("20221012160952_InitialMigration")]
+    partial class InitialMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,10 +49,6 @@ namespace FlyrodWebAppMVC.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RodImage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("Sections")
                         .HasColumnType("int");
 
@@ -76,7 +74,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF4",
                             MakerId = 1,
                             Model = "37H",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1959
@@ -89,7 +86,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "DT4",
                             MakerId = 2,
                             Model = "98",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1962
@@ -102,7 +98,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "DT5",
                             MakerId = 3,
                             Model = "Far and Fine",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1972
@@ -115,7 +110,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "DT7",
                             MakerId = 9,
                             Model = "SF8672",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1962
@@ -128,7 +122,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "DT5",
                             MakerId = 4,
                             Model = "7513",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1955
@@ -141,7 +134,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF6",
                             MakerId = 5,
                             Model = "B9",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1946
@@ -154,7 +146,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF6",
                             MakerId = 6,
                             Model = "37",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1950
@@ -167,7 +158,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "DT7",
                             MakerId = 7,
                             Model = "Medallion",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Bamboo",
                             YearMade = 1975
@@ -180,7 +170,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF6",
                             MakerId = 8,
                             Model = "FF80",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Fiberglass",
                             YearMade = 1977
@@ -193,7 +182,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF6",
                             MakerId = 3,
                             Model = "Fullflex A",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Fiberglass",
                             YearMade = 1977
@@ -206,7 +194,6 @@ namespace FlyrodWebAppMVC.Migrations
                             LineWeight = "WF4",
                             MakerId = 9,
                             Model = "Stalker",
-                            RodImage = "",
                             Sections = 2,
                             Type = "Fiberglass",
                             YearMade = 1979

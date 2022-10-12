@@ -4,7 +4,7 @@
 
 namespace FlyrodWebAppMVC.Migrations
 {
-    public partial class NewMigration : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

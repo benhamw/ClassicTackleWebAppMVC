@@ -1,8 +1,7 @@
 ﻿using FlyrodWebAppMVC;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<FlyrodContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("FlyrodContext") ?? throw new InvalidOperationException("Connection string 'FlyrodContext' not found.")));
+builder.Services.AddDbContext<FlyrodContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
