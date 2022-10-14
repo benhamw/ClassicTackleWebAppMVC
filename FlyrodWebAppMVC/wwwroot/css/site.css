@@ -32,3 +32,9 @@ body {
     border: 3px solid green;
 }
 
+table, th, td {
+    border: 2px solid green;
+    border-collapse: collapse;
+    background: #eee;
+}
+
