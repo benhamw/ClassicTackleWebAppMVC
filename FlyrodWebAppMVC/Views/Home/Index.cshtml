@@ -2,15 +2,23 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Classic Flyrod Database</h1>
-</div>
-@*<a href="../Players">Players Modification</a>
-*@
-<br />
-<a class="custom-navbar-blue" asp-area="" asp-controller="Flyrods" asp-action="Index">Flyrods</a>
-<br />
-<a class="custom-navbar-blue" asp-area="" asp-controller="Makers" asp-action="Index">Makers</a>
-<br />
-<br />
-<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<body>
+    <div class="text-center">
+        <a><img src="~/lib/images/classicRods.jpg" style="width: 20%; height: 20%; text-align:center"></a>
+        <h1>
+            <span style="font-size:30px; text-align:center">Classic Flyrod Database</span>
+        </h1>
+               <h1>
+            <span style="font-size:20px;text-align:center">Main Menu</span>
+        </h1>
+    </div>
+    <br />
+    <div align="left" class="menu">
+        <p>
+            1) <a href='@Url.Action("Index", "Flyrods")'>Click Here</a> to see a list of classic flyrods
+        </p>
+        <p>
+            2) <a href='@Url.Action("Index", "Makers")'>Click Here</a> To see a list of classic flyrod makers
+        </p>
+    </div>
+ </body>

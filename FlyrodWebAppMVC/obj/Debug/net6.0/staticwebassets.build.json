@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "295kdfaA2POD6XLb/qv+ZvkWSKUqWN30Z6KyzB4zgbw=",
+  "Hash": "49/etWtnuek+6kp94hpN1D+zP96gmjhVGPjCACadwWg=",
   "Source": "FlyrodWebAppMVC",
   "BasePath": "_content/FlyrodWebAppMVC",
   "Mode": "Default",
@@ -865,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\lib\\images\\classicRods.jpg",
+      "SourceId": "FlyrodWebAppMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\",
+      "BasePath": "_content/FlyrodWebAppMVC",
+      "RelativePath": "lib/images/classicRods.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\images\\classicRods.jpg"
     },
     {
       "Identity": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\lib\\images\\Fenwick-FF80.jpg",
