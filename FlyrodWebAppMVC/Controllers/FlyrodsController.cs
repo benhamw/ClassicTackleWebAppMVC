@@ -48,7 +48,7 @@ namespace FlyrodWebAppMVC.Controllers
         // GET: Flyrods/Create
         public IActionResult Create()
         {
-            ViewData["MakerId"] = new SelectList(_context.Makers, "Id", "Id");
+            ViewData["MakerId"] = new SelectList(_context.Makers, "Id", "Name");
             return View();
         }
 
