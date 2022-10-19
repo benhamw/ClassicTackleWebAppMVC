@@ -3,9 +3,9 @@
 }
 
 <body>
-    <div align="center" class="menu">
+    <div align="center" class="menu-header">
          <h1>
-            <span style="font-size:30px; text-align:center; color:green">Classic Flyrod Database</span>
+            <span style="font-size:40px; text-align:center; color:green">Classic Flyrod Database</span>
         </h1>
          
     </div>
@@ -13,15 +13,17 @@
     <div align="left" class="menu">
         <div align="center">
             <h1>
-                 <span style="font-size:20px;color:green">Main Menu</span>
+                 <span style="font-size:30px;color:green">Main Menu</span>
             </h1>
         </div>
         <br/>
-        <p>
-            1) <a href='@Url.Action("Index", "Flyrods")'>Click Here</a> to see a list of classic flyrods
-        </p>
-        <p>
-            2) <a href='@Url.Action("Index", "Makers")'>Click Here</a> To see a list of classic flyrod makers
-        </p>
+        <ol>
+            <li>
+                <a href='@Url.Action("Index", "Flyrods")'>Click Here</a> to see a list of classic flyrods
+            </li>
+            <li>
+                <a href='@Url.Action("Index", "Makers")'>Click Here</a> To see a list of classic flyrod makers
+            </li>
+        </ol>
     </div>
  </body>

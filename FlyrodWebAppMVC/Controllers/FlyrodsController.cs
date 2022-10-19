@@ -59,10 +59,10 @@ namespace FlyrodWebAppMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,MakerId,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction,RodImage")] Flyrod flyrod)
         {
-            //if (ModelState.IsValid)
-            bool run = true;
-            if (run)
-            {
+            ModelState.Remove("Maker");
+
+            if (ModelState.IsValid)
+            { 
                 _context.Add(flyrod);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -100,9 +100,9 @@ namespace FlyrodWebAppMVC.Controllers
                 return NotFound();
             }
 
-            bool run = true;
-            if (run)
-            //if (ModelState.IsValid)
+            ModelState.Remove("Maker");
+
+            if (ModelState.IsValid)
             {
                 try
                 {
