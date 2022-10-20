@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "49/etWtnuek+6kp94hpN1D+zP96gmjhVGPjCACadwWg=",
+  "Hash": "/7SfGz+qsTVqX1p1kx3a40/i5MWsq0Ni5Sn2NKoKL58=",
   "Source": "FlyrodWebAppMVC",
   "BasePath": "_content/FlyrodWebAppMVC",
   "Mode": "Default",
@@ -899,6 +899,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\images\\Fenwick-FF80.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\lib\\images\\Garrison204.webp",
+      "SourceId": "FlyrodWebAppMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\",
+      "BasePath": "_content/FlyrodWebAppMVC",
+      "RelativePath": "lib/images/Garrison204.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\images\\Garrison204.webp"
+    },
+    {
+      "Identity": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\lib\\images\\Garrison206.webp",
+      "SourceId": "FlyrodWebAppMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\",
+      "BasePath": "_content/FlyrodWebAppMVC",
+      "RelativePath": "lib/images/Garrison206.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\images\\Garrison206.webp"
     },
     {
       "Identity": "C:\\Users\\willi\\source\\repos\\FlyrodWebAppMVC\\FlyrodWebAppMVC\\wwwroot\\lib\\images\\leonard37h.webp",

@@ -84,7 +84,7 @@ namespace FlyrodWebAppMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["MakerId"] = new SelectList(_context.Makers, "Id", "Id", flyrod.MakerId);
+            ViewData["MakerId"] = new SelectList(_context.Makers, "Id", "Name", flyrod.MakerId);
             return View(flyrod);
         }
 

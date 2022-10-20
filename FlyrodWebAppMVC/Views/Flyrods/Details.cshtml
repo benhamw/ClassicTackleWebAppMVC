@@ -20,31 +20,31 @@
             @Html.DisplayFor(model => model.Model)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LengthFeet)
+            Length (ft)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.LengthFeet)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Sections)
+            # of Sections
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Sections)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LineWeight)
+            Line Weight
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.LineWeight)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.YearMade)
+            Year Made
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.YearMade)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Type)
+            Material
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Type)
@@ -62,7 +62,7 @@
     
     @*<img src="~/lib/images/leonard37h.webp" alt="Leonard 37H" style="width: 50%; height: 50%">*@
 </div>
-<div class="red">
+<div class="red" style="width: 150px">
     <a asp-action="Edit" asp-route-id="@Model?.Id" class="red">Edit</a> |
     <a asp-action="Index" class="red">Back to List</a>
 </div>
